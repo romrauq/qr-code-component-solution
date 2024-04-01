@@ -1,3 +1,8 @@
+@font-face {
+	src: url(../fonts/outfit-font.ttf);
+	font-family: outfit;
+}
+
 * {
 	box-sizing: border-box;
 	padding: 0;
@@ -15,6 +20,7 @@ body {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
+	font-family: outfit;
 	display: flex;
 	flex-direction: column;
 	text-align: center;
